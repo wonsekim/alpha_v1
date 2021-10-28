@@ -50,6 +50,18 @@ export class Main extends Component {
                             <MaterialCommunityIcons name="plus-box" color={color} size={26} />
                         ),
                     }} />
+                <Tab.Screen name="AddtaskContainer" component={EmptyScreen}
+                    listeners={({ navigation }) => ({
+                        tabPress: event => {
+                            event.preventDefault();
+                            navigation.navigate("Addtask")
+                        }
+                    })}
+                    options={{
+                        tabBarIcon: ({ color, size }) => (
+                            <MaterialCommunityIcons name="plus-box" color={color} size={26} />
+                        ),
+                    }} />
                 <Tab.Screen name="Profile" component={ProfileScreen} 
                 listeners={({ navigation }) => ({
                     tabPress: event => {
