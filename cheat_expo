@@ -1,0 +1,39 @@
+* install
+npm install -g expo-cli
+
+* init
+expo init AwesomeProject
+
+cd AwesomeProject
+npm start # you can also use: expo start -c
+
+* navigation
+npm install @react-navigation/native
+npm install typescript
+npm install react-native-gusture-handler
+npm install @react-navigation/stack
+expo install react-native-screens react-native-safe-area-context
+npm install @react-native-community/masked-view
+npm install @react-navigation/bottom-tabs
+npm install @react-navigation/material-bottom-tabs 
+
+* firebase
+npm install firebase
+
+
+* redux
+npm i redux
+npm i react-redux
+npm i react-thunk
+
+
+* paper
+npm install react-native-paper 
+
+* camera
+npm install expo-camera
+
+* image picker 
+expo install expo-image-picker
+
+* debug coupon: 21552758-B9E1-4B38-A8E5-4D1118EDAAB9

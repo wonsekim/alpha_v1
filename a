@@ -1,0 +1,3 @@
+components/main/Profile.js:                        console.log('does not exist')
+redux/actions/index.js:                    console.log('does not exist')
+redux/actions/index.js:                        console.log('does not exist')
